@@ -1,0 +1,5 @@
+all_files.txt
+unique_files.txt
+tmp/
+coverageComp/.idea
+coverageComp/venv
