@@ -7,4 +7,6 @@ for i in $(cat ../unique_files.txt); do echo $i; python coverage_comp.py ../tmp/
 
 for i in $(cat ../unique_files.txt); do echo $i; miseq=$(find .. -maxdepth 3 -name *"-CCBPG"*$i*"gene"*); nextseq=$(find .. -maxdepth 3 -name *"TAFXY"*$i*"gene"*); python coverage_comp.py $miseq $nextseq ; done
 
+for i in $(cat ../unique_files.txt); do echo $i; miseq=$(find .. -maxdepth 3 -name *"-CCBPG"*$i*"custom"*); nextseq=$(find .. -maxdepth 3 -name *"TAFXY"*$i*"custom"*); python coverage_comp.py $miseq $nextseq ; done
+
 
