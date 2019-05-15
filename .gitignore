@@ -3,3 +3,5 @@ unique_files.txt
 tmp/
 coverageComp/.idea
 coverageComp/venv
+manifest2bed/.idea
+remove_lowq_gts/.idea
